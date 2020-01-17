@@ -1,6 +1,8 @@
 #include <cstdio>
 #include <algorithm>
 
+using namespace std;
+
 const int MAX_N = 1000;
 
 int n, m, k[MAX_N];
@@ -27,7 +29,7 @@ void solve() {
         }
     }
 
-    std::sort(kk, kk + n * n);
+    sort(kk, kk + n * n);
 
     bool f = false;
 

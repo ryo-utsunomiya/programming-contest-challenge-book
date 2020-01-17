@@ -3,4 +3,4 @@ project(programming_contest_challenge_book)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(programming_contest_challenge_book p021-triangle/main.cpp)
+add_executable(programming_contest_challenge_book p023-ants.cpp)
